@@ -1,26 +1,34 @@
 {
   "name": "my-react-app",
-  "private": true,
   "version": "0.0.0",
+  "private": true,
+  "description": "This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.",
+  "keywords": [],
+  "homepage": "https://r726-dev.github.io/my-react-app/",
+  "bugs": {
+    "url": "https://github.com/R726-dev/Feedback-App/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/R726-dev/Feedback-App.git"
+  },
+  "license": "ISC",
+  "author": "",
   "type": "module",
-  "proxy": "http://localhost:5000",
-  "homepage": "https://github.com/R726-dev/Feedback-App.git",
+  "main": "eslint.config.js",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
-    "server": "json-server --watch db.json --port 5000",
-    "start": "concurrently \"npm run dev\" \"npm run server\""
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
-    "concurrently": "^10.0.6",
     "framer-motion": "^4.1.17",
     "prop-types": "^15.8.1",
-    "react": "^19.2.8",
-    "react-dom": "^19.2.8",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
     "react-icons": "^5.7.0",
     "react-router-dom": "^6.30.6",
     "uuid": "^14.0.3"
@@ -29,12 +37,13 @@
     "@eslint/js": "^10.0.1",
     "@types/react": "^19.2.18",
     "@types/react-dom": "^19.2.7",
-    "@vitejs/plugin-react": "^6.1.1",
+    "@vitejs/plugin-react": "^6.3.0",
     "eslint": "^10.10.0",
     "eslint-plugin-react-hooks": "^7.1.1",
     "eslint-plugin-react-refresh": "^0.5.6",
     "gh-pages": "^6.3.0",
     "globals": "^17.12.0",
-    "vite": "^8.3.0"
-  }
+    "vite": "^8.3.8"
+  },
+  "proxy": "http://localhost:5173"
 }
