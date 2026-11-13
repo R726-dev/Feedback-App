@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "proxy": "http://localhost:5000",
-  "homepage": "https://r726-dev.github.io/my-react-app/",
+  "homepage": "https://github.com/R726-dev/Feedback-App.git",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
